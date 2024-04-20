@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshaya Chinnamma Ninan - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    .navbar {
+      background-color: #343a40;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .jumbotron {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    .card {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Akshaya Chinnamma Ninan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="jumbotron text-center">
+  <h1 class="display-4">Welcome to My Portfolio</h1>
+  <p class="lead">I'm Akshaya Chinnamma Ninan, a passionate and creative individual. Explore my Portfolio and connect
+    with me.</p>
+</div>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center">About Me</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="c:\Users\DELL\Downloads\pht.jpg" class="img-fluid rounded-circle" alt="Akshaya Chinnamma Ninan">
+            </div>
+            <div class="col-lg-6">
+      <p class="lead">Hi, I'm Akshaya Chinnamma Ninan, a passionate and creative individual born on 01/10/2002. I have a
+        deep interest in web development, design, Business Mangement, and Finance Management.I am a passionate and creative Person, With a strong background.
+        I am dedicated to delivering high-quality solutions and constantly improving my skills. My goal is to become a Business consultant.
+    </p>
+   <p class="lead"> Some key skills and technologies I work with include:</p>
+    <ul class="lead">
+        <li>Web Development (HTML, CSS, JavaScript)</li>
+        <li>Front-end Frameworks (e.g., Bootstrap)</li>
+       <li> Excel </li>
+     <!-- Add more skills as needed -->
+    </ul>
+    <p class="lead">
+        In my free time, you can find me exploring new technologies, working on personal
+        projects, or enjoying outdoor activities. I'm proficient in HTML, CSS, and have experience
+        with popular front-end frameworks like Bootstrap.
+    </p>
+    <p class="lead">
+        Let's work together to create something amazing! Feel free to explore my portfolio and
+        get in touch with me if you have any questions or project ideas reach out to me via the contact
+        section below!
+    </p></p>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 class="text-center mb-4">Education</h2>
+      <div class="card">
+
+        <div class="card-body">
+            <h5 class="card-title">Bachelor's of Commerce in Finance and Taxation</h5>
+            <p class="card-text">Mahatma Gandhi University, Graduation Year- 2023</p>
+          </div>
+<br>
+          <div class="card-body">
+            <h5 class="card-title">Commerce - 12th</h5>
+            <p class="card-text">St. Anne's Girls Higher Secondary School Kottayam Kerala, Graduation Year- 2020</p>
+          </div>
+<br>
+          <div class="card-body">
+            <h5 class="card-title">SSLC - 10th</h5>
+            <p class="card-text">St. Anne's Girls Higher Secondary School Kottayam Kerala, Graduation Year- 2018</p>
+          </div>
+
+      </div>
+     
+    </div>
+  </div>
+</section>
+
+<!--Resume Section -->
+
+<section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <!-- Add your resume content here -->
+      <a href="c:\Users\DELL\OneDrive\ドキュメント\resume.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+    </div>
+  </section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS and jQuery (Make sure to include Popper.js before Bootstrap JS) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
